@@ -1,0 +1,10 @@
+opencv-python
+pandas
+scikit-learn
+gunicorn
+streamlit
+geocoder
+face_recognition
+secure-smtplib
+
+
