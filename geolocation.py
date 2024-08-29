@@ -17,7 +17,7 @@ else:
     location_info = f"Location: {g.city}, {g.state}, {g.country} - Lat: {g.latlng[0]}, Lng: {g.latlng[1]}"
 
 # URL of the external camera stream
-video_url = 'http://192.168.137.156:8080/video'
+video_url = 'http://192.168.230.139:8080/video'
 cap = cv2.VideoCapture(video_url)
 
 if not cap.isOpened():
